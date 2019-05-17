@@ -1,0 +1,2 @@
+Synchronized Linked list with mutex and multiple threads. 
+You choose a thread amount and it links together objects that represent each line in a file with chosen number of threads.

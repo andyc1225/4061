@@ -1,0 +1,8 @@
+This is a simple client server example using sockets and 2 clients
+cli1 and cli2 are simply test code object files I wrote. You can run them but they won't do much.
+They are required because ftok requires a filepath.
+
+Open run server first before running either client.
+When you reply with a client the server does not print anything. 
+This is a design choice because it was 2am and I mistakenly read the instructions wrong. 
+Since printing server side is the same as client side, I don't feel the need to copy paste it.

@@ -1,0 +1,18 @@
+ The main focus of this project is to implement 
+ (1) three Unix ﬁle system–related commands (cd, du, and grep) and 
+ (2) a unix shell which is capable of executing any Unix commands. 
+ Moreover, the shell should be able to handle redirection and pipes in addition to executing the commands.
+ 
+ Our redirection was simple and works mainly to output files.
+ the du command does not work on directories that are extremely large such as the root folder. 
+ It will work on fairly large directories such as your User folder.
+ 
+Other errors are
+Seg fault if the file is not present when running grep
+
+Not able to run commands that are not in /bin like gcc
+This one was an oversight, I will add this in the future
+
+Not printing command error when a bad command is entered
+
+File created in redirection cannot be opened without changing permissions

@@ -1,0 +1,1 @@
+Write a C program which replicates the fork/exec/wait functionality supported when executing multiple processes in the bash command prompt. 
